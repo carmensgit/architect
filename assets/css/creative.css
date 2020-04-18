@@ -197,12 +197,14 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 /* styles for arrow bounce */
 .arrow {
   text-align: center;
-  margin: 8% 0;
+  margin: 8% 0 -52%;
+
 }
 .arrow a {
   color: white;
