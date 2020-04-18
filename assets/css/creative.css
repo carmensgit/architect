@@ -198,17 +198,17 @@ header .header-content {
     padding: 100px 15px;
     text-align: center;
     box-sizing: border-box;
+
 }
 
 /* styles for arrow bounce */
 .arrow {
   text-align: center;
-  margin: 8% 0 -52%;
-
 }
 .arrow a {
-  color: white;
+  color: red;
   text-decoration: none;
+  margin-top: 950px;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
