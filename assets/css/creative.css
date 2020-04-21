@@ -9,36 +9,6 @@ html,
 body {
     width: 100%;
     height: 100%;
-    @bg: #2d2d37; // Dark blue
-    @primary: #fd6b21; Orange
-}
-
-body {
-<<<<<<< Updated upstream
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
-    background: @bg;
-=======
-    font-family: 'Samim', sans-serif;
->>>>>>> Stashed changes
-  }
-
-  /* Persian font styles */
-  @font-face {
-  font-family: Samim;
-  src: url('Samim.eot');
-  src: url('Samim.eot?#iefix') format('embedded-opentype'),
-       url('Samim.woff') format('woff'),
-       url('Samim.ttf') format('truetype');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: Samim;
-  src: url('Samim-Bold.eot');
-  src: url('Samim-Bold.eot?#iefix') format('embedded-opentype'),
-       url('Samim-Bold.woff') format('woff'),
-       url('Samim-Bold.ttf') format('truetype');
-  font-weight: bold;
 }
 
 hr {
@@ -205,6 +175,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
+    height: 100vh;
 
     background-image: url(header.jpg);
 
@@ -231,7 +202,7 @@ header .header-content {
 .arrow a {
   color: red;
   text-decoration: none;
-  margin-top: 950px;
+  margin-top: 800px;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
